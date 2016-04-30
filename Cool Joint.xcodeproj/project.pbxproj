@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45501C7502781C95B97A7C6 /* Pods_Cool_Joint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C30804B67736E308D89DDBE /* Pods_Cool_Joint.framework */; };
+		F858DFF61CAECC9C004845DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858DFF51CAECC9C004845DA /* AppDelegate.swift */; };
+		F858DFFB1CAECC9C004845DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F858DFF91CAECC9C004845DA /* Main.storyboard */; };
+		F858DFFE1CAECC9C004845DA /* Cool_Joint.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F858DFFC1CAECC9C004845DA /* Cool_Joint.xcdatamodeld */; };
+		F858E0001CAECC9C004845DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F858DFFF1CAECC9C004845DA /* Assets.xcassets */; };
+		F858E00E1CAECC9C004845DA /* Cool_JointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E00D1CAECC9C004845DA /* Cool_JointTests.swift */; };
+		F858E0191CAECC9C004845DA /* Cool_JointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0181CAECC9C004845DA /* Cool_JointUITests.swift */; };
+		F858E0271CAED481004845DA /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0261CAED481004845DA /* LaunchViewController.swift */; };
+		F858E0291CAED4D1004845DA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0281CAED4D1004845DA /* SignInViewController.swift */; };
+		F858E02B1CAED4E4004845DA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E02A1CAED4E4004845DA /* SignUpViewController.swift */; };
+		F858E02D1CAED4F4004845DA /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E02C1CAED4F4004845DA /* EditItemViewController.swift */; };
+		F858E0311CAEDF51004845DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0301CAEDF51004845DA /* Constants.swift */; };
+		F858E0331CAEE0DB004845DA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0321CAEE0DB004845DA /* DataService.swift */; };
+		F858E0391CAF09F7004845DA /* offer2.png in Resources */ = {isa = PBXBuildFile; fileRef = F858E0361CAF09F7004845DA /* offer2.png */; };
+		F858E03A1CAF09F7004845DA /* offer3.png in Resources */ = {isa = PBXBuildFile; fileRef = F858E0371CAF09F7004845DA /* offer3.png */; };
+		F858E03E1CAF0D62004845DA /* offer1.png in Resources */ = {isa = PBXBuildFile; fileRef = F858E03D1CAF0D62004845DA /* offer1.png */; };
+		F858E0471CAF11DB004845DA /* main_course.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F858E0431CAF11DB004845DA /* main_course.jpeg */; };
+		F858E0481CAF11DB004845DA /* parathas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F858E0441CAF11DB004845DA /* parathas.jpeg */; };
+		F858E04A1CAF11DB004845DA /* starters.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F858E0461CAF11DB004845DA /* starters.jpeg */; };
+		F858E04C1CAF12C3004845DA /* MenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E04B1CAF12C3004845DA /* MenuTableCell.swift */; };
+		F858E04E1CAF14E8004845DA /* rice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F858E04D1CAF14E8004845DA /* rice.jpg */; };
+		F858E0501CAF158E004845DA /* beverages.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F858E04F1CAF158E004845DA /* beverages.jpg */; };
+		F858E0521CAF1935004845DA /* beers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F858E0511CAF1935004845DA /* beers.jpg */; };
+		F858E0581CAF292E004845DA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0571CAF292E004845DA /* Item.swift */; };
+		F858E05A1CAF2E22004845DA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0591CAF2E22004845DA /* AddItemViewController.swift */; };
+		F858E05C1CAF348B004845DA /* ItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E05B1CAF348B004845DA /* ItemTableCell.swift */; };
+		F858E05E1CAF3642004845DA /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E05D1CAF3642004845DA /* ItemListViewController.swift */; };
+		F858E0651CB048F4004845DA /* MenuHamberger-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F858E0641CB048F4004845DA /* MenuHamberger-icon.png */; };
+		F858E0671CB04B77004845DA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0661CB04B77004845DA /* HomeViewController.swift */; };
+		F858E06B1CB05DAA004845DA /* TableStatusCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E06A1CB05DAA004845DA /* TableStatusCollectionCell.swift */; };
+		F858E0711CB0649D004845DA /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = F858E0701CB0649D004845DA /* table.png */; };
+		F858E0731CB0696F004845DA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0721CB0696F004845DA /* Table.swift */; };
+		F858E0751CB06B0A004845DA /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858E0741CB06B0A004845DA /* SideMenuViewController.swift */; };
+		F8B02C8F1CB11ABB0043D63E /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B02C8D1CB11ABB0043D63E /* minus.png */; };
+		F8B02C901CB11ABB0043D63E /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B02C8E1CB11ABB0043D63E /* add.png */; };
+		F8B02C941CB133BE0043D63E /* table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8B02C931CB133BE0043D63E /* table.jpg */; };
+		F8B02C961CB134950043D63E /* table 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8B02C951CB134950043D63E /* table 0.jpg */; };
+		F8B02CA21CB30F7C0043D63E /* available.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B02CA01CB30F7C0043D63E /* available.png */; };
+		F8B02CA31CB30F7C0043D63E /* unavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B02CA11CB30F7C0043D63E /* unavailable.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F858E00A1CAECC9C004845DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F858DFEA1CAECC9B004845DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F858DFF11CAECC9B004845DA;
+			remoteInfo = "Cool Joint";
+		};
+		F858E0151CAECC9C004845DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F858DFEA1CAECC9B004845DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F858DFF11CAECC9B004845DA;
+			remoteInfo = "Cool Joint";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C30804B67736E308D89DDBE /* Pods_Cool_Joint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cool_Joint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		802A4641D4340A3369C5FC04 /* Pods-Cool Joint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cool Joint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cool Joint/Pods-Cool Joint.debug.xcconfig"; sourceTree = "<group>"; };
+		B6CE2E58CE2776D53746A463 /* Pods-Cool Joint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cool Joint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cool Joint/Pods-Cool Joint.release.xcconfig"; sourceTree = "<group>"; };
+		F858DFF21CAECC9B004845DA /* Cool Joint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Joint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F858DFF51CAECC9C004845DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F858DFFA1CAECC9C004845DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F858DFFD1CAECC9C004845DA /* Cool_Joint.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cool_Joint.xcdatamodel; sourceTree = "<group>"; };
+		F858DFFF1CAECC9C004845DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F858E0041CAECC9C004845DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F858E0091CAECC9C004845DA /* Cool JointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool JointTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F858E00D1CAECC9C004845DA /* Cool_JointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_JointTests.swift; sourceTree = "<group>"; };
+		F858E00F1CAECC9C004845DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F858E0141CAECC9C004845DA /* Cool JointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cool JointUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F858E0181CAECC9C004845DA /* Cool_JointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cool_JointUITests.swift; sourceTree = "<group>"; };
+		F858E01A1CAECC9C004845DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F858E0261CAED481004845DA /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		F858E0281CAED4D1004845DA /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F858E02A1CAED4E4004845DA /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F858E02C1CAED4F4004845DA /* EditItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
+		F858E0301CAEDF51004845DA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F858E0321CAEE0DB004845DA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F858E0361CAF09F7004845DA /* offer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer2.png; sourceTree = "<group>"; };
+		F858E0371CAF09F7004845DA /* offer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer3.png; sourceTree = "<group>"; };
+		F858E03D1CAF0D62004845DA /* offer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer1.png; sourceTree = "<group>"; };
+		F858E0431CAF11DB004845DA /* main_course.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_course.jpeg; sourceTree = "<group>"; };
+		F858E0441CAF11DB004845DA /* parathas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parathas.jpeg; sourceTree = "<group>"; };
+		F858E0461CAF11DB004845DA /* starters.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starters.jpeg; sourceTree = "<group>"; };
+		F858E04B1CAF12C3004845DA /* MenuTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableCell.swift; sourceTree = "<group>"; };
+		F858E04D1CAF14E8004845DA /* rice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rice.jpg; sourceTree = "<group>"; };
+		F858E04F1CAF158E004845DA /* beverages.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beverages.jpg; sourceTree = "<group>"; };
+		F858E0511CAF1935004845DA /* beers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beers.jpg; sourceTree = "<group>"; };
+		F858E0571CAF292E004845DA /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F858E0591CAF2E22004845DA /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		F858E05B1CAF348B004845DA /* ItemTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableCell.swift; sourceTree = "<group>"; };
+		F858E05D1CAF3642004845DA /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		F858E0641CB048F4004845DA /* MenuHamberger-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MenuHamberger-icon.png"; sourceTree = "<group>"; };
+		F858E0661CB04B77004845DA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F858E06A1CB05DAA004845DA /* TableStatusCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableStatusCollectionCell.swift; sourceTree = "<group>"; };
+		F858E0701CB0649D004845DA /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table.png; sourceTree = "<group>"; };
+		F858E0721CB0696F004845DA /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		F858E0741CB06B0A004845DA /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F8B02C8D1CB11ABB0043D63E /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		F8B02C8E1CB11ABB0043D63E /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		F8B02C931CB133BE0043D63E /* table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table.jpg; sourceTree = "<group>"; };
+		F8B02C951CB134950043D63E /* table 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "table 0.jpg"; sourceTree = "<group>"; };
+		F8B02CA01CB30F7C0043D63E /* available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = available.png; sourceTree = "<group>"; };
+		F8B02CA11CB30F7C0043D63E /* unavailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unavailable.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F858DFEF1CAECC9B004845DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45501C7502781C95B97A7C6 /* Pods_Cool_Joint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F858E0061CAECC9C004845DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F858E0111CAECC9C004845DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8183B0865C1333C3AA39E347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				802A4641D4340A3369C5FC04 /* Pods-Cool Joint.debug.xcconfig */,
+				B6CE2E58CE2776D53746A463 /* Pods-Cool Joint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4A4BB37E59EBF954ED8314B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C30804B67736E308D89DDBE /* Pods_Cool_Joint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F858DFE91CAECC9B004845DA = {
+			isa = PBXGroup;
+			children = (
+				F858DFF41CAECC9C004845DA /* Cool Joint */,
+				F858E00C1CAECC9C004845DA /* Cool JointTests */,
+				F858E0171CAECC9C004845DA /* Cool JointUITests */,
+				F858DFF31CAECC9B004845DA /* Products */,
+				8183B0865C1333C3AA39E347 /* Pods */,
+				C4A4BB37E59EBF954ED8314B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F858DFF31CAECC9B004845DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F858DFF21CAECC9B004845DA /* Cool Joint.app */,
+				F858E0091CAECC9C004845DA /* Cool JointTests.xctest */,
+				F858E0141CAECC9C004845DA /* Cool JointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F858DFF41CAECC9C004845DA /* Cool Joint */ = {
+			isa = PBXGroup;
+			children = (
+				F858E03C1CAF09FA004845DA /* Images */,
+				F8B02C9B1CB301390043D63E /* Data Models */,
+				F858DFF51CAECC9C004845DA /* AppDelegate.swift */,
+				F858E0301CAEDF51004845DA /* Constants.swift */,
+				F858E0261CAED481004845DA /* LaunchViewController.swift */,
+				F858E0281CAED4D1004845DA /* SignInViewController.swift */,
+				F858E0661CB04B77004845DA /* HomeViewController.swift */,
+				F858E0741CB06B0A004845DA /* SideMenuViewController.swift */,
+				F858E02C1CAED4F4004845DA /* EditItemViewController.swift */,
+				F858E05D1CAF3642004845DA /* ItemListViewController.swift */,
+				F858E0591CAF2E22004845DA /* AddItemViewController.swift */,
+				F858E04B1CAF12C3004845DA /* MenuTableCell.swift */,
+				F858E06A1CB05DAA004845DA /* TableStatusCollectionCell.swift */,
+				F858E05B1CAF348B004845DA /* ItemTableCell.swift */,
+				F858E02A1CAED4E4004845DA /* SignUpViewController.swift */,
+				F858DFF91CAECC9C004845DA /* Main.storyboard */,
+				F858DFFF1CAECC9C004845DA /* Assets.xcassets */,
+				F858E0041CAECC9C004845DA /* Info.plist */,
+				F858DFFC1CAECC9C004845DA /* Cool_Joint.xcdatamodeld */,
+			);
+			path = "Cool Joint";
+			sourceTree = "<group>";
+		};
+		F858E00C1CAECC9C004845DA /* Cool JointTests */ = {
+			isa = PBXGroup;
+			children = (
+				F858E00D1CAECC9C004845DA /* Cool_JointTests.swift */,
+				F858E00F1CAECC9C004845DA /* Info.plist */,
+			);
+			path = "Cool JointTests";
+			sourceTree = "<group>";
+		};
+		F858E0171CAECC9C004845DA /* Cool JointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F858E0181CAECC9C004845DA /* Cool_JointUITests.swift */,
+				F858E01A1CAECC9C004845DA /* Info.plist */,
+			);
+			path = "Cool JointUITests";
+			sourceTree = "<group>";
+		};
+		F858E03C1CAF09FA004845DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F8B02CA01CB30F7C0043D63E /* available.png */,
+				F8B02CA11CB30F7C0043D63E /* unavailable.png */,
+				F8B02C951CB134950043D63E /* table 0.jpg */,
+				F8B02C931CB133BE0043D63E /* table.jpg */,
+				F8B02C8D1CB11ABB0043D63E /* minus.png */,
+				F8B02C8E1CB11ABB0043D63E /* add.png */,
+				F858E0701CB0649D004845DA /* table.png */,
+				F858E0641CB048F4004845DA /* MenuHamberger-icon.png */,
+				F858E0511CAF1935004845DA /* beers.jpg */,
+				F858E04F1CAF158E004845DA /* beverages.jpg */,
+				F858E04D1CAF14E8004845DA /* rice.jpg */,
+				F858E0431CAF11DB004845DA /* main_course.jpeg */,
+				F858E0441CAF11DB004845DA /* parathas.jpeg */,
+				F858E0461CAF11DB004845DA /* starters.jpeg */,
+				F858E0361CAF09F7004845DA /* offer2.png */,
+				F858E03D1CAF0D62004845DA /* offer1.png */,
+				F858E0371CAF09F7004845DA /* offer3.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F8B02C9B1CB301390043D63E /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				F858E0321CAEE0DB004845DA /* DataService.swift */,
+				F858E0721CB0696F004845DA /* Table.swift */,
+				F858E0571CAF292E004845DA /* Item.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F858DFF11CAECC9B004845DA /* Cool Joint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F858E01D1CAECC9C004845DA /* Build configuration list for PBXNativeTarget "Cool Joint" */;
+			buildPhases = (
+				9DDF99AAF4138FFFF7D85395 /* Check Pods Manifest.lock */,
+				F858DFEE1CAECC9B004845DA /* Sources */,
+				F858DFEF1CAECC9B004845DA /* Frameworks */,
+				F858DFF01CAECC9B004845DA /* Resources */,
+				90F89E060D91B3976C91AA66 /* Embed Pods Frameworks */,
+				795C2D14C433DA154D944BA7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cool Joint";
+			productName = "Cool Joint";
+			productReference = F858DFF21CAECC9B004845DA /* Cool Joint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F858E0081CAECC9C004845DA /* Cool JointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F858E0201CAECC9C004845DA /* Build configuration list for PBXNativeTarget "Cool JointTests" */;
+			buildPhases = (
+				F858E0051CAECC9C004845DA /* Sources */,
+				F858E0061CAECC9C004845DA /* Frameworks */,
+				F858E0071CAECC9C004845DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F858E00B1CAECC9C004845DA /* PBXTargetDependency */,
+			);
+			name = "Cool JointTests";
+			productName = "Cool JointTests";
+			productReference = F858E0091CAECC9C004845DA /* Cool JointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F858E0131CAECC9C004845DA /* Cool JointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F858E0231CAECC9C004845DA /* Build configuration list for PBXNativeTarget "Cool JointUITests" */;
+			buildPhases = (
+				F858E0101CAECC9C004845DA /* Sources */,
+				F858E0111CAECC9C004845DA /* Frameworks */,
+				F858E0121CAECC9C004845DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F858E0161CAECC9C004845DA /* PBXTargetDependency */,
+			);
+			name = "Cool JointUITests";
+			productName = "Cool JointUITests";
+			productReference = F858E0141CAECC9C004845DA /* Cool JointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F858DFEA1CAECC9B004845DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abhishek Agarwal";
+				TargetAttributes = {
+					F858DFF11CAECC9B004845DA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F858E0081CAECC9C004845DA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F858DFF11CAECC9B004845DA;
+					};
+					F858E0131CAECC9C004845DA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F858DFF11CAECC9B004845DA;
+					};
+				};
+			};
+			buildConfigurationList = F858DFED1CAECC9B004845DA /* Build configuration list for PBXProject "Cool Joint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F858DFE91CAECC9B004845DA;
+			productRefGroup = F858DFF31CAECC9B004845DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F858DFF11CAECC9B004845DA /* Cool Joint */,
+				F858E0081CAECC9C004845DA /* Cool JointTests */,
+				F858E0131CAECC9C004845DA /* Cool JointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F858DFF01CAECC9B004845DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B02C961CB134950043D63E /* table 0.jpg in Resources */,
+				F8B02C941CB133BE0043D63E /* table.jpg in Resources */,
+				F858E0001CAECC9C004845DA /* Assets.xcassets in Resources */,
+				F858E0471CAF11DB004845DA /* main_course.jpeg in Resources */,
+				F8B02CA31CB30F7C0043D63E /* unavailable.png in Resources */,
+				F858E0651CB048F4004845DA /* MenuHamberger-icon.png in Resources */,
+				F858DFFB1CAECC9C004845DA /* Main.storyboard in Resources */,
+				F858E04A1CAF11DB004845DA /* starters.jpeg in Resources */,
+				F858E0711CB0649D004845DA /* table.png in Resources */,
+				F858E03A1CAF09F7004845DA /* offer3.png in Resources */,
+				F8B02C901CB11ABB0043D63E /* add.png in Resources */,
+				F8B02C8F1CB11ABB0043D63E /* minus.png in Resources */,
+				F858E04E1CAF14E8004845DA /* rice.jpg in Resources */,
+				F858E0481CAF11DB004845DA /* parathas.jpeg in Resources */,
+				F858E0521CAF1935004845DA /* beers.jpg in Resources */,
+				F858E0391CAF09F7004845DA /* offer2.png in Resources */,
+				F858E03E1CAF0D62004845DA /* offer1.png in Resources */,
+				F858E0501CAF158E004845DA /* beverages.jpg in Resources */,
+				F8B02CA21CB30F7C0043D63E /* available.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F858E0071CAECC9C004845DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F858E0121CAECC9C004845DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		795C2D14C433DA154D944BA7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cool Joint/Pods-Cool Joint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90F89E060D91B3976C91AA66 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cool Joint/Pods-Cool Joint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDF99AAF4138FFFF7D85395 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F858DFEE1CAECC9B004845DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F858E0291CAED4D1004845DA /* SignInViewController.swift in Sources */,
+				F858E05E1CAF3642004845DA /* ItemListViewController.swift in Sources */,
+				F858E04C1CAF12C3004845DA /* MenuTableCell.swift in Sources */,
+				F858E05C1CAF348B004845DA /* ItemTableCell.swift in Sources */,
+				F858DFFE1CAECC9C004845DA /* Cool_Joint.xcdatamodeld in Sources */,
+				F858E06B1CB05DAA004845DA /* TableStatusCollectionCell.swift in Sources */,
+				F858DFF61CAECC9C004845DA /* AppDelegate.swift in Sources */,
+				F858E05A1CAF2E22004845DA /* AddItemViewController.swift in Sources */,
+				F858E0271CAED481004845DA /* LaunchViewController.swift in Sources */,
+				F858E0311CAEDF51004845DA /* Constants.swift in Sources */,
+				F858E0731CB0696F004845DA /* Table.swift in Sources */,
+				F858E0671CB04B77004845DA /* HomeViewController.swift in Sources */,
+				F858E02B1CAED4E4004845DA /* SignUpViewController.swift in Sources */,
+				F858E02D1CAED4F4004845DA /* EditItemViewController.swift in Sources */,
+				F858E0331CAEE0DB004845DA /* DataService.swift in Sources */,
+				F858E0751CB06B0A004845DA /* SideMenuViewController.swift in Sources */,
+				F858E0581CAF292E004845DA /* Item.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F858E0051CAECC9C004845DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F858E00E1CAECC9C004845DA /* Cool_JointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F858E0101CAECC9C004845DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F858E0191CAECC9C004845DA /* Cool_JointUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F858E00B1CAECC9C004845DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F858DFF11CAECC9B004845DA /* Cool Joint */;
+			targetProxy = F858E00A1CAECC9C004845DA /* PBXContainerItemProxy */;
+		};
+		F858E0161CAECC9C004845DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F858DFF11CAECC9B004845DA /* Cool Joint */;
+			targetProxy = F858E0151CAECC9C004845DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F858DFF91CAECC9C004845DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F858DFFA1CAECC9C004845DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F858E01B1CAECC9C004845DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F858E01C1CAECC9C004845DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F858E01E1CAECC9C004845DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802A4641D4340A3369C5FC04 /* Pods-Cool Joint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Cool Joint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Cool-Joint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F858E01F1CAECC9C004845DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CE2E58CE2776D53746A463 /* Pods-Cool Joint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Cool Joint/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Cool-Joint";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+		F858E0211CAECC9C004845DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cool JointTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Cool-JointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool Joint.app/Cool Joint";
+			};
+			name = Debug;
+		};
+		F858E0221CAECC9C004845DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cool JointTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Cool-JointTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool Joint.app/Cool Joint";
+			};
+			name = Release;
+		};
+		F858E0241CAECC9C004845DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cool JointUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Cool-JointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cool Joint";
+			};
+			name = Debug;
+		};
+		F858E0251CAECC9C004845DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cool JointUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.Cool-JointUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cool Joint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F858DFED1CAECC9B004845DA /* Build configuration list for PBXProject "Cool Joint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F858E01B1CAECC9C004845DA /* Debug */,
+				F858E01C1CAECC9C004845DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F858E01D1CAECC9C004845DA /* Build configuration list for PBXNativeTarget "Cool Joint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F858E01E1CAECC9C004845DA /* Debug */,
+				F858E01F1CAECC9C004845DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F858E0201CAECC9C004845DA /* Build configuration list for PBXNativeTarget "Cool JointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F858E0211CAECC9C004845DA /* Debug */,
+				F858E0221CAECC9C004845DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F858E0231CAECC9C004845DA /* Build configuration list for PBXNativeTarget "Cool JointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F858E0241CAECC9C004845DA /* Debug */,
+				F858E0251CAECC9C004845DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F858DFFC1CAECC9C004845DA /* Cool_Joint.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F858DFFD1CAECC9C004845DA /* Cool_Joint.xcdatamodel */,
+			);
+			currentVersion = F858DFFD1CAECC9C004845DA /* Cool_Joint.xcdatamodel */;
+			path = Cool_Joint.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F858DFEA1CAECC9B004845DA /* Project object */;
+}
